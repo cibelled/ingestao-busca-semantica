@@ -95,9 +95,9 @@ Digite `sair` para encerrar o chat.
   (`RecursiveCharacterTextSplitter`).
 - Embeddings:
   - OpenAI: `text-embedding-3-small`
-  - Gemini: `models/embedding-001`
+  - Gemini: `models/gemini-embedding-001`
 - LLM de resposta:
   - OpenAI: `gpt-5-nano`
-  - Gemini: `gemini-2.5-flash-lite`
+  - Gemini: `gemini-3.5-flash-lite`
 - Busca por similaridade retorna os **10 resultados mais relevantes** (`k=10`), concatenados
   como contexto no prompt enviado à LLM.
